@@ -14,7 +14,7 @@ Running this analysis requires a number of datafiles and R code or packages. See
 2. Place all .R files in there. Unpack *R.ontoTools.128.zip* and also move them into *rfunctions*.
 3. Also in the working directory, make a directory called *datafiles* and place *geneid_readcount_mm10*, *immgene-expression-data.RData* and *gene_assignment_from_immgen.txt* there.
 4. Run R in the working directory and use:
-'''
+```
 > source(file="log.R")
-'''
+```
 to run the entire analysis and produce all outputs as specified in the paper.
