@@ -9,7 +9,7 @@ Running this analysis requires a number of datafiles and R code or packages. See
 3. Gene Ontology Enrichment Analysis. This builds on the R/Bioconductor package [GO.db](http://bioconductor.org/packages/release/data/annotation/html/GO.db.html) with annotations sourced from the NCBI files *gene2refseq* and *gene2go*, which are available from via ftp://ftp.ncbi.nih.gov/gene/. See the README file on that page. The related R code is located in the file [R.ontoTools.128.zip](https://github.com/rbhwilliams/JCI-Insights-paper-data-and-analysis/blob/master/R.ontoTools.128.zip) and [rw.ontoTools.R](https://github.com/rbhwilliams/JCI-Insights-paper-data-and-analysis/blob/master/rw.ontoTools.R). The code we have used here is *not recommended for general use* and was used here primarily as a vehicle for updating the now defunct Bioconductor package *ontoTools*.
 4. Other: you will also need the R package [identifier.mapping](https://github.com/rbhwilliams/identifier.mapping). The R [code](http://xavierlab2.mgh.harvard.edu/EnrichmentProfiler/EnrichmentProfilerDownload/EnrichmentScore.R) used to compute the Betina statistic was obtained from the Xavier lab website at MGH.  
 
-## Setting up and runnig the analysis
+## Setting up and running the analysis
 1. From the working directory, please make a directory called *rfunctions*.
 2. Place all .R files in there. Unpack *R.ontoTools.128.zip* and also move them into *rfunctions*.
 3. Also in the working directory, make a directory called *datafiles* and place *geneid_readcount_mm10*, *immgene-expression-data.RData* and *gene_assignment_from_immgen.txt* there.
